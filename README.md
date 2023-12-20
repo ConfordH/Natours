@@ -2,14 +2,13 @@
 
 ## Overview
 
-Natours is a modern and visually appealing website designed to showcase exciting tours for adventurous individuals. The site is built with HTML, CSS, and includes some interactive elements using JavaScript. It features a responsive design to ensure a seamless experience across various devices.
+Natours is a modern and visually appealing website designed to showcase exciting tours for adventurous individuals. The site is built with CSS, and includes some interactive elements. It features a responsive design to ensure a seamless experience across various devices.
 
 ## Project Structure
 
 - **index.html:** The main HTML file containing the structure of the Natours website.
 - **css/style.css:** The CSS file for styling the entire website.
 - **img/:** Directory containing images used in the project.
-- **js/:** Directory containing potential JavaScript files (not provided in the HTML).
 
 ## Features
 
