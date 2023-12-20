@@ -1,9 +1,21 @@
+/*
+0 - 600px : phone
+600  - 900 : tablet portrait
+900 - 1200 : tablet landscape
+1200 -  180 : is wehere our normal styles apply
+1800+  Big desktops 
+*/
+/*
+$breakpoint argument choices
+-phone
+-tablet portrait
+-tablet landscape
+-big desktop
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
     transform: translateX(-10rem); }
-  60% {
-    transform: rotate(); }
   80% {
     transform: translateX(1rem); }
   100% {
@@ -14,8 +26,6 @@
   0% {
     opacity: 0;
     transform: translateX(10rem); }
-  60% {
-    transform: rotate(); }
   80% {
     transform: translateX(-1rem); }
   100% {
@@ -39,6 +49,12 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
